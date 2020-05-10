@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+ //使用程序判断用户输入的盘符是否是合法盘符
+ char pan = '\0'//定义盘符为空字型的
+cout<<"请输入一个字符,我来判断是否合法";
+cin>>pan;
+//'A'~'Z'合法
+if(pan>='A' && pan<='Z')
+    {
+
+
+       cout<<"是合法的"<<endl;
+
+    }
+
+else
+    {
+      cout<<"输入的盘符非法"
+    }
+
+
+
+}
